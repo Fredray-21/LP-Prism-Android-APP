@@ -13,12 +13,29 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
-            android:name=".tp_BDD.MainActivity_BDD"
+            android:name=".tp5_BDD_2.Visualize_BDD"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".tp5_BDD_2.MainActivity_BDD_ChuckNorris"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".tp5_BDD.MainActivity_BDD"
+            android:exported="false">
+
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -33,13 +50,12 @@
         <activity
             android:name=".tp4_Services.MainActivity_Services"
             android:exported="false">
-
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".webService.PlaceHolderPost"
+            android:name=".tp3_webService.PlaceHolderPost"
             android:exported="false"
             tools:ignore="Instantiatable">
             <meta-data
@@ -47,7 +63,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".webService.PLaceHolderAPI"
+            android:name=".tp3_webService.PLaceHolderAPI"
             android:exported="false"
             tools:ignore="Instantiatable">
             <meta-data
@@ -55,7 +71,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".webService.webServiceActivity"
+            android:name=".tp3_webService.webServiceActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
